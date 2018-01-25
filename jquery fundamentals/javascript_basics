@@ -1,0 +1,54 @@
+jQuery基于JavaScript，本身就是一个丰富而又充满表现力的语言。这节内容涵盖了JavaScript的基本概念，和一些以前没有使用过JavaSript的人经常遇到的问题。它不仅能给那些没有编程经验的人提供价值，甚至是使用其他语言的程序员也能够通过学习JavaScript的特性而从中收益。
+
+这是一个简单JavaScript程序，用来为页面添加一个信息：
+// 创建一个问候某人的方法，
+// 然后把这个方法赋值给greet变量
+var greet = function( person, message ) {
+  var greeting = 'Hello, ' + person + '!';
+  log( greeting + ' ' + message );
+};
+
+// 使用这个方法问候Jory, 传递给她
+// 我们想要使用的名字和信息
+greet( 'Jory', 'Welcome to JavaScript' );
+
+// 使用这个方法问候Rebecca, 传递给她
+// 名字和一个不同的信息
+greet( 'Rebecca', 'Thanks for joining us' );
+
+* 上面的例子中，我们用了一个叫log的方法，注意这是一个我们单独定义的辅助方法，并不是JavaScript的原生方法。在你的正常代码中你需要使用console.log，它的结果会在浏览器的控制台中输出显示。
+
+如果你不知道这个程序会将发生什么事情没关系，在这节的其余部分，我们会讲解变量，方法和少量的JavaScript构建块（building blocks）。
+
+# 关于注释
+注释是一个用来解释一段代码的运行结果非常有用的工具。无论怎样注释内容不会影响你的代码运行。有些人喜欢对他们的代码进行大量的注释，而其他人则喜欢只注释那些不起眼的事情。
+
+JavaScript 允许单行和多行注释。单行注释由//开始；多行注释开始于/*并结束于*/。
+
+// 这是一个单行注释
+var foo;
+
+/*
+  这是一个多行注释。 它可以是
+  若干行, 就像这样。
+ */
+
+ 有时你也会见到只有一行的多行注释
+
+ function cornify( unicorns /* integer */, rainbows /* integer */ ) {
+
+}
+# JavaScript 的构建块（building blocks）
+# 变量
+变量是一种用来存储值的方式，以便于之后再次使用它。变量可以包含任意值 —— 文本，数字，数组和对象，甚至一段代码（function）。我们使用一个var语句来声明变量。
+
+var myName = 'Rebecca';
+
+
+
+
+
+
+
+
+
