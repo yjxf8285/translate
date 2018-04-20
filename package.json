@@ -1,0 +1,19 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "这里存放我翻译的一些文章",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjxf8285/translate.git"
+  },
+  "author": "lxf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yjxf8285/translate/issues"
+  },
+  "homepage": "https://github.com/yjxf8285/translate#readme"
+}
